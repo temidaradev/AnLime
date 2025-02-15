@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://pik5k7ssrurv"]
+
+[ext_resource type="Script" path="res://test/player.gd" id="1_jg78d"]
+[ext_resource type="PackedScene" uid="uid://bri6vmy2lrpea" path="res://test/rose_fbx.tscn" id="2_v3j4a"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_aslcs"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_jm5rf"]
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_jg78d")
+
+[node name="Rose FBX" parent="." instance=ExtResource("2_v3j4a")]
+transform = Transform3D(-0.489626, 0, 0.871933, 0, 1, 0, -0.871933, 0, -0.489626, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_aslcs")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+visible = false
+mesh = SubResource("CapsuleMesh_jm5rf")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.48323, -0.136639)
