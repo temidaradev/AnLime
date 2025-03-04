@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://74m05tuvyhya"]
+[gd_scene load_steps=6 format=3 uid="uid://74m05tuvyhya"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_x81ig"]
+[ext_resource type="PackedScene" uid="uid://dxkuejtdnw5t4" path="res://test/walking.tscn" id="2_fdbwa"]
 [ext_resource type="PackedScene" uid="uid://cp7lhl7efwqg6" path="res://test/6_twelve.tscn" id="3_80nt1"]
 [ext_resource type="PackedScene" uid="uid://pik5k7ssrurv" path="res://test/player.tscn" id="3_vo2hd"]
 
@@ -16,8 +17,12 @@ adjustment_enabled = true
 [node name="World" type="Node3D"]
 script = ExtResource("1_x81ig")
 
+[node name="Walking" parent="." instance=ExtResource("2_fdbwa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.37279, 0, 0)
+
 [node name="Player" parent="." instance=ExtResource("3_vo2hd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0991244, 0)
+visible = false
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
