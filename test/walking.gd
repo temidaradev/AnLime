@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 @onready var camera: Camera3D = $Camera3D
-@onready var walk: AnimationPlayer = $Walk
+@onready var animation_player: AnimationPlayer = $AnimationPlayer
 
 
 const SPEED = 5
@@ -34,9 +34,10 @@ func _physics_process(delta: float) -> void:
 	if direction:
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
-		walk.play("mixamo_com")
+		animation_player.play("mixamo_com")
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
+		animation_player.play("idle")
 	
 	move_and_slide()
