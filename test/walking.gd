@@ -1,9 +1,10 @@
 extends CharacterBody3D
 
 @onready var camera: Camera3D = $Camera3D
-@onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var walk: AnimationPlayer = $Walk
 
-const SPEED = 10
+
+const SPEED = 5
 const JUMP_VELOCITY = 7
 
 func _ready() -> void:
@@ -12,8 +13,8 @@ func _ready() -> void:
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
-		rotate_y(-event.relative.x * 0.005)
-		camera.rotate_x(-event.relative.y * 0.005)
+		rotate_y(-event.relative.x * 0.001)
+		camera.rotate_x(-event.relative.y * 0.001)
 		camera.rotation.x = clamp(camera.rotation.x,-PI/2,PI/2)
 			
 
@@ -33,10 +34,9 @@ func _physics_process(delta: float) -> void:
 	if direction:
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
-		animation_player.play("mixamo_com")
+		walk.play("mixamo_com")
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
-		#animation_player.play("idle")
 	
 	move_and_slide()
