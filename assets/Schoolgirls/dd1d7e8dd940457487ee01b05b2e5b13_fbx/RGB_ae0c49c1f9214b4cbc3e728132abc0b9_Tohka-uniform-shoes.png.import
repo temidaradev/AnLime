@@ -3,25 +3,26 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c23kirgbf1rky"
-path="res://.godot/imported/RGB_ae0c49c1f9214b4cbc3e728132abc0b9_Tohka-uniform-shoes.png-437bd5b9fb363ef31b8c58bf8f3d18bf.ctex"
+path.s3tc="res://.godot/imported/RGB_ae0c49c1f9214b4cbc3e728132abc0b9_Tohka-uniform-shoes.png-437bd5b9fb363ef31b8c58bf8f3d18bf.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_ae0c49c1f9214b4cbc3e728132abc0b9_Tohka-uniform-shoes.png"
-dest_files=["res://.godot/imported/RGB_ae0c49c1f9214b4cbc3e728132abc0b9_Tohka-uniform-shoes.png-437bd5b9fb363ef31b8c58bf8f3d18bf.ctex"]
+dest_files=["res://.godot/imported/RGB_ae0c49c1f9214b4cbc3e728132abc0b9_Tohka-uniform-shoes.png-437bd5b9fb363ef31b8c58bf8f3d18bf.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=false
+mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -31,4 +32,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

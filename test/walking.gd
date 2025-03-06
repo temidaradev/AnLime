@@ -3,11 +3,11 @@ extends CharacterBody3D
 @onready var camera_pivot: Node3D = $CameraPivot
 @onready var camera: Camera3D = $CameraPivot/Camera3D
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
-@onready var bone_attachment_3d: BoneAttachment3D = $Skeleton3D/Face/BoneAttachment3D
-
+#@onready var bone_attachment_3d: BoneAttachment3D = $Skeleton3D/Face/BoneAttachment3D
+@onready var bone_attachment_3d: BoneAttachment3D = $BoneAttachment3D
 
 const SPEED = 5
-const JUMP_VELOCITY = 7
+const JUMP_VELOCITY = 4.5
 const CAMERA_OFFSET = Vector3(0, 0.1, 0)
 
 func _ready() -> void:

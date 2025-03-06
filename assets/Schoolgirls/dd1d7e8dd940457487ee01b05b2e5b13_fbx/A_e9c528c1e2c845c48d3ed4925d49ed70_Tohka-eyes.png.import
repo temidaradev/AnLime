@@ -3,25 +3,26 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bs5o3chwj210j"
-path="res://.godot/imported/A_e9c528c1e2c845c48d3ed4925d49ed70_Tohka-eyes.png-a7e6ba8b116f2bb8b91541b1ff4ecd08.ctex"
+path.s3tc="res://.godot/imported/A_e9c528c1e2c845c48d3ed4925d49ed70_Tohka-eyes.png-a7e6ba8b116f2bb8b91541b1ff4ecd08.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/A_e9c528c1e2c845c48d3ed4925d49ed70_Tohka-eyes.png"
-dest_files=["res://.godot/imported/A_e9c528c1e2c845c48d3ed4925d49ed70_Tohka-eyes.png-a7e6ba8b116f2bb8b91541b1ff4ecd08.ctex"]
+dest_files=["res://.godot/imported/A_e9c528c1e2c845c48d3ed4925d49ed70_Tohka-eyes.png-a7e6ba8b116f2bb8b91541b1ff4ecd08.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=false
+mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -31,4 +32,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

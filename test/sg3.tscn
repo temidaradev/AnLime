@@ -1,0 +1,88 @@
+[gd_scene load_steps=25 format=3 uid="uid://bt14onhppchpb"]
+
+[ext_resource type="PackedScene" uid="uid://dufvewpckbsku" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/dd1d7e8dd940457487ee01b05b2e5b13.fbx" id="1_pnpnf"]
+[ext_resource type="Texture2D" uid="uid://cu5va4im5lt5g" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_49f6ae9716e74545aa6caefd0d10155c_Tohka-head.png" id="2_mukxn"]
+[ext_resource type="Texture2D" uid="uid://ct752eoa8m7xh" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_49b506d7a4e3490092290eeb90249dff_Tohka-skin.png" id="3_280c0"]
+[ext_resource type="Texture2D" uid="uid://dwkwus3jx21iu" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_17c3c91049454c15aed6b1b66c1cf1de_Tohka-panties.png" id="4_1c6c2"]
+[ext_resource type="Texture2D" uid="uid://fmiy0tyw1uci" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/A_c982da5b07d1424294e2d4cc708f50a0_Tohka-bra.png" id="5_p553j"]
+[ext_resource type="Texture2D" uid="uid://b8od4yjmrc2ht" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_982d6de6ec914c0abeef5a0273c719da_Tohka-eyes.png" id="6_74d3e"]
+[ext_resource type="Texture2D" uid="uid://rbiw3mm2n4x5" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_5134cf1e28b244de8281446f1878816b_Tohka-hair.png" id="7_lqny3"]
+[ext_resource type="Texture2D" uid="uid://cwcmnpk6t1fnu" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_1282cbde4cc94f50a93025cf0c811059_Tohka-uniform-skirt.png" id="8_rburl"]
+[ext_resource type="Texture2D" uid="uid://c23kirgbf1rky" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_ae0c49c1f9214b4cbc3e728132abc0b9_Tohka-uniform-shoes.png" id="9_te4qh"]
+[ext_resource type="Texture2D" uid="uid://cxmdk5qxkueg0" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_45fad4f48d494499a11a161246ef5408_Tohka-thigh-highs.png" id="10_t26du"]
+[ext_resource type="Texture2D" uid="uid://1x3oypg63dpn" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/RGB_1178850b05c546628fed04f1b5377061_Tohka-uniform-top1.png" id="11_m8snw"]
+[ext_resource type="Texture2D" uid="uid://b1bkk7yy3kai6" path="res://assets/Schoolgirls/dd1d7e8dd940457487ee01b05b2e5b13_fbx/A_c320ab977c1d49a8bd557c935a9f99b1_Tohka-panties.png" id="12_y2rwc"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cxs1v"]
+albedo_texture = ExtResource("2_mukxn")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2cabj"]
+albedo_texture = ExtResource("3_280c0")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6rwsi"]
+albedo_texture = ExtResource("4_1c6c2")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j0aby"]
+albedo_texture = ExtResource("5_p553j")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lbjxn"]
+albedo_texture = ExtResource("6_74d3e")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_37ikd"]
+albedo_texture = ExtResource("7_lqny3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ri81l"]
+albedo_texture = ExtResource("8_rburl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qh6t1"]
+albedo_texture = ExtResource("9_te4qh")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_m65wf"]
+albedo_texture = ExtResource("6_74d3e")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yfeop"]
+albedo_texture = ExtResource("10_t26du")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1nglj"]
+albedo_texture = ExtResource("11_m8snw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bqgtv"]
+albedo_texture = ExtResource("12_y2rwc")
+
+[node name="dd1d7e8dd940457487ee01b05b2e5b13" instance=ExtResource("1_pnpnf")]
+
+[node name="object_0" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_cxs1v")
+
+[node name="object_1" parent="." index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_2cabj")
+
+[node name="object_2" parent="." index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_6rwsi")
+
+[node name="object_3" parent="." index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_j0aby")
+
+[node name="object_4" parent="." index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_lbjxn")
+
+[node name="object_5" parent="." index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_37ikd")
+
+[node name="object_6" parent="." index="6"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ri81l")
+
+[node name="object_7" parent="." index="7"]
+surface_material_override/0 = SubResource("StandardMaterial3D_qh6t1")
+
+[node name="object_8" parent="." index="8"]
+surface_material_override/0 = SubResource("StandardMaterial3D_m65wf")
+
+[node name="object_9" parent="." index="9"]
+surface_material_override/0 = SubResource("StandardMaterial3D_yfeop")
+
+[node name="object_10" parent="." index="10"]
+surface_material_override/0 = SubResource("StandardMaterial3D_1nglj")
+
+[node name="object_12" parent="." index="12"]
+surface_material_override/0 = SubResource("StandardMaterial3D_bqgtv")
