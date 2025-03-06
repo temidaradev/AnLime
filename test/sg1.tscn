@@ -1,0 +1,75 @@
+[gd_scene load_steps=22 format=3 uid="uid://b6hl5bdlc6urq"]
+
+[ext_resource type="PackedScene" uid="uid://dss5yxk5ejwgi" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/534a1f56fdcd49c5bc307e3faf31c557.fbx" id="1_vomca"]
+[ext_resource type="Texture2D" uid="uid://b6kn7s5cyk2c" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_13746bfcfbaf40edad4c3446513b5cbb_Marin-head.png" id="2_226nf"]
+[ext_resource type="Texture2D" uid="uid://du305ldfydsxm" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_dfc1f0ca2c204843a27c06444dda7d9a_Marin-skin.png" id="3_wrshe"]
+[ext_resource type="Texture2D" uid="uid://ctk43p6pkcxx0" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/A_6c568a7683e4405b9c576f4dfae78b8c_Marin-bra.png" id="4_lhkco"]
+[ext_resource type="Texture2D" uid="uid://q2qrvjfxcwks" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_e4c7cfbc1f2d4e1f9e7b9be8cbb1727d_Marin-eyes.png" id="5_ijujq"]
+[ext_resource type="Texture2D" uid="uid://dtk05256j1kdv" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_d45c19b983344342aefeaf280663f7cb_Marin-bra.png" id="6_71647"]
+[ext_resource type="Texture2D" uid="uid://b13b8p5y48shb" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_8c2e8ac0ee1245a8b2b87c8bbc8d89ab_Marin-school-shoes.png" id="7_6wc2v"]
+[ext_resource type="Texture2D" uid="uid://4nq74vkailuk" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_7c6eb3c69d614bac86cbdbc4796b9a4f_Marin-socks.png" id="8_l4wtr"]
+[ext_resource type="Texture2D" uid="uid://061pt6h2fl07" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_8c6944860dd94a57aad3e7920740f278_Marin-school-shirt.png" id="9_nkyj0"]
+[ext_resource type="Texture2D" uid="uid://ba11sau0ifhw1" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_b282cd2717774ad1a0ea430a8a72411d_Marin-school-skirt.png" id="10_mwust"]
+[ext_resource type="Texture2D" uid="uid://bmuwdmqsugob3" path="res://assets/Schoolgirls/534a1f56fdcd49c5bc307e3faf31c557_fbx/RGB_29d80f98fcbb44c494a0c940c7cf5fc7_Marin-hair.png" id="11_7nb54"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k7n6v"]
+albedo_texture = ExtResource("2_226nf")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e2cl1"]
+albedo_texture = ExtResource("3_wrshe")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k10qd"]
+albedo_texture = ExtResource("4_lhkco")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2013e"]
+albedo_texture = ExtResource("5_ijujq")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aqj6h"]
+albedo_texture = ExtResource("6_71647")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bijy4"]
+albedo_texture = ExtResource("7_6wc2v")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_njnw8"]
+albedo_texture = ExtResource("8_l4wtr")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lhktw"]
+albedo_texture = ExtResource("9_nkyj0")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t033h"]
+albedo_texture = ExtResource("10_mwust")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c077q"]
+albedo_texture = ExtResource("11_7nb54")
+
+[node name="534a1f56fdcd49c5bc307e3faf31c557" instance=ExtResource("1_vomca")]
+
+[node name="object_0" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_k7n6v")
+
+[node name="object_1" parent="." index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_e2cl1")
+
+[node name="object_3" parent="." index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_k10qd")
+
+[node name="object_4" parent="." index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_2013e")
+
+[node name="object_6" parent="." index="6"]
+surface_material_override/0 = SubResource("StandardMaterial3D_aqj6h")
+
+[node name="object_7" parent="." index="7"]
+surface_material_override/0 = SubResource("StandardMaterial3D_bijy4")
+
+[node name="object_8" parent="." index="8"]
+surface_material_override/0 = SubResource("StandardMaterial3D_njnw8")
+
+[node name="object_9" parent="." index="9"]
+surface_material_override/0 = SubResource("StandardMaterial3D_lhktw")
+
+[node name="object_10" parent="." index="10"]
+surface_material_override/0 = SubResource("StandardMaterial3D_t033h")
+
+[node name="object_11" parent="." index="11"]
+surface_material_override/0 = SubResource("StandardMaterial3D_c077q")

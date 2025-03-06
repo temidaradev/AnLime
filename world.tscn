@@ -1,8 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://74m05tuvyhya"]
+[gd_scene load_steps=10 format=3 uid="uid://74m05tuvyhya"]
 
 [ext_resource type="Script" path="res://world.gd" id="1_x81ig"]
 [ext_resource type="PackedScene" uid="uid://dxkuejtdnw5t4" path="res://test/walking.tscn" id="2_fdbwa"]
 [ext_resource type="PackedScene" uid="uid://brlyd36j55p83" path="res://test/school.tscn" id="2_ipyje"]
+[ext_resource type="PackedScene" uid="uid://p3xqslfe1op6" path="res://test/uploads_files_3232752_dragon.tscn" id="4_x4pyl"]
+[ext_resource type="PackedScene" uid="uid://b6hl5bdlc6urq" path="res://test/sg1.tscn" id="5_21v5f"]
+[ext_resource type="PackedScene" uid="uid://bkgrdiwfndr85" path="res://test/sg2.tscn" id="6_132xe"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_f5dea"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -45,3 +48,12 @@ layout_mode = 2
 [node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/PanelContainer/MarginContainer"]
 layout_mode = 2
 alignment = 1
+
+[node name="uploads-files-3232752-dragon" parent="." instance=ExtResource("4_x4pyl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.12746, 0.520001, 1.62368)
+
+[node name="534a1f56fdcd49c5bc307e3faf31c557" parent="." instance=ExtResource("5_21v5f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.19659, -0.479997, 5.44565)
+
+[node name="2c92fe3ffe9d456aabadf980aebecfb0" parent="." instance=ExtResource("6_132xe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.63527, -0.479999, 4.83628)

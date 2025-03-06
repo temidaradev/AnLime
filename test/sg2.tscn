@@ -1,0 +1,101 @@
+[gd_scene load_steps=28 format=3 uid="uid://bkgrdiwfndr85"]
+
+[ext_resource type="PackedScene" uid="uid://b2h4rf8frho7k" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/2c92fe3ffe9d456aabadf980aebecfb0.fbx" id="1_00cht"]
+[ext_resource type="Texture2D" uid="uid://bveivj1wga2lp" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_82098d4995274830ae4135404cbca525_Kurumi-head.png" id="2_8cwp6"]
+[ext_resource type="Texture2D" uid="uid://d5lwtkd6rrrm" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_e41bca8d66824681ba863d6aa267f128_Kurumi-skin.png" id="3_cswug"]
+[ext_resource type="Texture2D" uid="uid://ieafegmiqpaw" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_810e93d795dc4e4baacfb25487e46d28_Kurumi-panties.png" id="4_yhodk"]
+[ext_resource type="Texture2D" uid="uid://b85vwbc46lfcq" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/A_970a9d4ed00f483eba9361fe63af48ff_Kurumi-panties.png" id="5_cso6x"]
+[ext_resource type="Texture2D" uid="uid://b4tiwlo3kdwiq" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_4cc8f9679d134fb2b52ecd610bbfa7b4_Kurumi-bra.png" id="6_pf7oc"]
+[ext_resource type="Texture2D" uid="uid://ypvhwl45ng8d" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_055c418b026247b8b8fac2f2d2627152_Kurumi-eyes.png" id="7_j8k3b"]
+[ext_resource type="Texture2D" uid="uid://ch2kmx15c8d1b" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_b6ffd608d5344719a42f9a4990d0ffd3_Kurumi-garters.png" id="8_k1iml"]
+[ext_resource type="Texture2D" uid="uid://ddic2fbfi0pju" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_3f6df8f711944e7fa55ad4ca7461e020_Kurumi-hair.png" id="9_okr6d"]
+[ext_resource type="Texture2D" uid="uid://45a061g1to3u" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_7f6169ff0d7843c985f94ad6210b4c21_Kurumi-uniform-skirt.png" id="10_0hqhf"]
+[ext_resource type="Texture2D" uid="uid://b5xbxftoc1w33" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_61c1c213f588400aa849afd6c4c58094_Kurumi-uniform-shoes.png" id="11_r6qi1"]
+[ext_resource type="Texture2D" uid="uid://c5rwqpd77nc3u" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/A_ca17c1c4430245eaa6767ea1373a4be5_Kurumi-eyes.png" id="12_nrydi"]
+[ext_resource type="Texture2D" uid="uid://bkmayyghupeiu" path="res://assets/Schoolgirls/2c92fe3ffe9d456aabadf980aebecfb0_fbx/RGB_4779ba47718a4971b32495371f97a91e_Kurumi-uniform-top2.png" id="13_dxm1g"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bkoai"]
+albedo_texture = ExtResource("2_8cwp6")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tuimr"]
+albedo_texture = ExtResource("3_cswug")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f4a6t"]
+albedo_texture = ExtResource("4_yhodk")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fjwkm"]
+albedo_texture = ExtResource("5_cso6x")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_67d7e"]
+albedo_texture = ExtResource("6_pf7oc")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fwui2"]
+albedo_texture = ExtResource("7_j8k3b")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_co5xg"]
+albedo_texture = ExtResource("7_j8k3b")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i4l5o"]
+albedo_texture = ExtResource("8_k1iml")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2bt2n"]
+albedo_texture = ExtResource("9_okr6d")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2yhhv"]
+albedo_texture = ExtResource("10_0hqhf")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nssdv"]
+albedo_texture = ExtResource("11_r6qi1")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ow5rg"]
+albedo_texture = ExtResource("12_nrydi")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_thp86"]
+albedo_texture = ExtResource("13_dxm1g")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5aj5u"]
+albedo_texture = ExtResource("8_k1iml")
+
+[node name="2c92fe3ffe9d456aabadf980aebecfb0" instance=ExtResource("1_00cht")]
+
+[node name="object_0" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_bkoai")
+
+[node name="object_1" parent="." index="1"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tuimr")
+
+[node name="object_2" parent="." index="2"]
+surface_material_override/0 = SubResource("StandardMaterial3D_f4a6t")
+
+[node name="object_3" parent="." index="3"]
+surface_material_override/0 = SubResource("StandardMaterial3D_fjwkm")
+
+[node name="object_4" parent="." index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_67d7e")
+
+[node name="object_5" parent="." index="5"]
+surface_material_override/0 = SubResource("StandardMaterial3D_fwui2")
+
+[node name="object_6" parent="." index="6"]
+surface_material_override/0 = SubResource("StandardMaterial3D_co5xg")
+
+[node name="object_7" parent="." index="7"]
+surface_material_override/0 = SubResource("StandardMaterial3D_i4l5o")
+
+[node name="object_8" parent="." index="8"]
+surface_material_override/0 = SubResource("StandardMaterial3D_2bt2n")
+
+[node name="object_9" parent="." index="9"]
+surface_material_override/0 = SubResource("StandardMaterial3D_2yhhv")
+
+[node name="object_10" parent="." index="10"]
+surface_material_override/0 = SubResource("StandardMaterial3D_nssdv")
+
+[node name="object_11" parent="." index="11"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ow5rg")
+
+[node name="object_12" parent="." index="12"]
+surface_material_override/0 = SubResource("StandardMaterial3D_thp86")
+
+[node name="object_14" parent="." index="14"]
+surface_material_override/0 = SubResource("StandardMaterial3D_5aj5u")
